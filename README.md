@@ -4,5 +4,4 @@ This web page is my homework assignment focused on code refactoring. I improved 
 The code was also refactored to include detailed comments, and the CSS selectors were consolidated.
 
 See page at https://caitlinw29.github.io/code-refactor/
-![Image of screenshotted page]
-(./assets/images/app-screenshot.png)
+![Image of screenshotted page](./assets/images/app-screenshot.png)
