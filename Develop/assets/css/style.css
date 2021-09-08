@@ -1,13 +1,25 @@
+/* Universal */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* General setup */
 body {
     background-color: #d9dcd6;
 } 
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Header of the page */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -22,7 +34,7 @@ body {
 
 .header h1 .seo {
     color: #d9dcd6;
-}
+} /* seo is a different color from the rest of the word*/
 
 .header nav {
     padding-top: 15px;
@@ -41,15 +53,7 @@ body {
     margin-left: 25px;
 } 
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
+/* Images */
 .figure {
     height: 800px;
     width: 100%;
@@ -66,13 +70,39 @@ p {
     margin-left: 25px;
 }
 
+.benefit-section img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.content-section img {
+    max-height: 200px;
+}
+
+/* Content */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.benefits {
+.content-section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.content-section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Aside */
+.benefits { 
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -93,30 +123,7 @@ p {
     text-align: center;
 }
 
-.benefit-section img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.content-section {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.content-section img {
-    max-height: 200px;
-}
-
-.content-section h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Footer */
 .footer {
     padding: 30px;
     clear: both;
