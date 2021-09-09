@@ -1,7 +1,9 @@
 /* Universal */
 * {
+    /*Border-box accounts for margin and padding*/
     box-sizing: border-box;
-    padding: 0;
+    /*Sets padding and margin to 0 to remove browser settings*/
+    padding: 0; 
     margin: 0;
 }
 
@@ -12,6 +14,7 @@ body {
 
 a {
     color: #ffffff;
+    /*Get rid of underline*/
     text-decoration: none;
 }
 
@@ -32,11 +35,12 @@ p {
     font-size: 48px;
 }
 
-.header h1 .seo {
+.seo {
     color: #d9dcd6;
 } /* seo is a different color from the rest of the word*/
 
 .header nav {
+    /*Float the nav to the right to keep the links on the right side of the header*/
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -45,6 +49,7 @@ p {
 }
 
 .header nav ul {
+    /*Take away the bullets*/
     list-style-type: none;
 }
 
@@ -55,17 +60,20 @@ p {
 
 /* Images */
 .bigimage {
+    /* 100% height and width keep it responsive without stretching the image */
     height: 100%;
     width: 100%;
     margin-bottom: 25px;
 }
 
 .float-left {
+    /*Images floated to the left*/
     float: left;
     margin-right: 25px;
 }
 
 .float-right {
+    /*Images floated to the right*/
     float: right;
     margin-left: 25px;
 }
@@ -103,6 +111,7 @@ p {
 
 /* Aside */
 .benefits { 
+    /*Float to the right side and clear the other elements on the page*/
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -126,7 +135,7 @@ p {
 /* Footer */
 .footer {
     padding: 30px;
-    clear: both;
+    clear: both; /*Clears anything that might drop down into the same space*/
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
