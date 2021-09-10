@@ -7,6 +7,7 @@
     margin: 0;
 }
 
+
 /* General setup */
 body {
     background-color: #d9dcd6;
@@ -22,24 +23,26 @@ p {
     font-size: 16px;
 }
 
+
 /* Header of the page */
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
 .seo {
+    /* seo is a different color from the rest of the word*/
     color: #d9dcd6;
-} /* seo is a different color from the rest of the word*/
+} 
 
-.header nav {
+header nav {
     /*Float the nav to the right to keep the links on the right side of the header*/
     padding-top: 15px;
     margin-right: 20px;
@@ -48,15 +51,16 @@ p {
     font-size: 20px;
 }
 
-.header nav ul {
+header nav ul {
     /*Take away the bullets*/
     list-style-type: none;
 }
 
-.header nav ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 } 
+
 
 /* Images */
 .bigimage {
@@ -88,8 +92,9 @@ p {
     max-height: 200px;
 }
 
+
 /* Content */
-.content {
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -109,8 +114,9 @@ p {
     font-size: 36px;
 }
 
+
 /* Aside */
-.benefits { 
+aside { 
     /*Float to the right side and clear the other elements on the page*/
     margin-right: 20px;
     padding: 20px;
@@ -132,14 +138,15 @@ p {
     text-align: center;
 }
 
+
 /* Footer */
-.footer {
+footer {
     padding: 30px;
     clear: both; /*Clears anything that might drop down into the same space*/
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 } 
